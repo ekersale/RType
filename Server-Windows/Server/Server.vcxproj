@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9F14C48F-711F-4358-9A22-96F5E2D41BBA}</ProjectGuid>
+    <RootNamespace>Server</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\..\Server\includes;$(IncludePath);..\..\LibThreads\includes\Windows;..\..\LibThreads\includes\Common;..\..\LibNetwork\includes\Windows;..\..\LibNetwork\includes\Common;..\..\Server\Core</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\LibNetwork\sources\Windows\WClientInfo.cpp" />
+    <ClCompile Include="..\..\LibNetwork\sources\Windows\WNetwork.cpp" />
+    <ClCompile Include="..\..\LibThreads\sources\Common\SafeQueue.cpp" />
+    <ClCompile Include="..\..\LibThreads\sources\Common\ThreadPool.cpp" />
+    <ClCompile Include="..\..\LibThreads\sources\Windows\CondVar.cpp" />
+    <ClCompile Include="..\..\LibThreads\sources\Windows\Mutex.cpp" />
+    <ClCompile Include="..\..\LibThreads\sources\Windows\ScopedLock.cpp" />
+    <ClCompile Include="..\..\LibThreads\sources\Windows\Thread.cpp" />
+    <ClCompile Include="..\..\Server\sources\Core.cpp" />
+    <ClCompile Include="..\..\Server\sources\MTime.cpp" />
+    <ClCompile Include="..\..\Server\sources\Object.cpp" />
+    <ClCompile Include="..\..\Server\sources\ObjectPull.cpp" />
+    <ClCompile Include="..\..\Server\sources\Random.cpp" />
+    <ClCompile Include="..\..\Server\sources\Stage.cpp" />
+    <ClCompile Include="..\..\Server\sources\UDLLoader.cpp" />
+    <ClCompile Include="..\..\Server\sources\WDLLoader.cpp" />
+    <ClCompile Include="..\..\Server\sources\Client.cpp" />
+    <ClCompile Include="..\..\Server\sources\LaunchRoom.cpp" />
+    <ClCompile Include="..\..\Server\sources\main.cpp" />
+    <ClCompile Include="..\..\Server\sources\RcvBuff.cpp" />
+    <ClCompile Include="..\..\Server\sources\Room.cpp" />
+    <ClCompile Include="..\..\Server\sources\Server.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\LibNetwork\includes\Common\INetwork.hh" />
+    <ClInclude Include="..\..\LibNetwork\includes\Common\Network.hh" />
+    <ClInclude Include="..\..\LibNetwork\includes\Windows\WClientInfo.hh" />
+    <ClInclude Include="..\..\LibThreads\includes\Common\ICondVar.hh" />
+    <ClInclude Include="..\..\LibThreads\includes\Common\IMutex.hh" />
+    <ClInclude Include="..\..\LibThreads\includes\Common\ISafeQueue.hh" />
+    <ClInclude Include="..\..\LibThreads\includes\Common\IThread.hh" />
+    <ClInclude Include="..\..\LibThreads\includes\Common\SafeQueue.hh" />
+    <ClInclude Include="..\..\LibThreads\includes\Common\ThreadPool.hh" />
+    <ClInclude Include="..\..\LibThreads\includes\Windows\CondVar.hh" />
+    <ClInclude Include="..\..\LibThreads\includes\Windows\Mutex.hh" />
+    <ClInclude Include="..\..\LibThreads\includes\Windows\ScopedLock.hh" />
+    <ClInclude Include="..\..\LibThreads\includes\Windows\Thread.hh" />
+    <ClInclude Include="..\..\Server\includes\Core.hh" />
+    <ClInclude Include="..\..\Server\includes\Elems.hh" />
+    <ClInclude Include="..\..\Server\includes\IAmmo.hh" />
+    <ClInclude Include="..\..\Server\includes\IDLLoader.hh" />
+    <ClInclude Include="..\..\Server\includes\IEntities.hh" />
+    <ClInclude Include="..\..\Server\includes\ILevels.hh" />
+    <ClInclude Include="..\..\Server\includes\IObject.hh" />
+    <ClInclude Include="..\..\Server\includes\IStage.hh" />
+    <ClInclude Include="..\..\Server\includes\MTime.hh" />
+    <ClInclude Include="..\..\Server\includes\Object.hh" />
+    <ClInclude Include="..\..\Server\includes\ObjectPull.hh" />
+    <ClInclude Include="..\..\Server\includes\Player.hpp" />
+    <ClInclude Include="..\..\Server\includes\Random.hh" />
+    <ClInclude Include="..\..\Server\includes\Stage.hh" />
+    <ClInclude Include="..\..\Server\includes\UDLLoader.hh" />
+    <ClInclude Include="..\..\Server\includes\WDLLoader.hh" />
+    <ClInclude Include="..\..\Server\includes\Client.hh" />
+    <ClInclude Include="..\..\Server\includes\LaunchRoom.hh" />
+    <ClInclude Include="..\..\Server\includes\ProtoServer.h" />
+    <ClInclude Include="..\..\Server\includes\RcvBuff.hh" />
+    <ClInclude Include="..\..\Server\includes\Room.hh" />
+    <ClInclude Include="..\..\Server\includes\Server.hh" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

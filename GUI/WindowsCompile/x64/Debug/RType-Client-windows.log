@@ -1,0 +1,38 @@
+﻿La génération a démarré 16/11/2014 01:32:46.
+     1>Projet "C:\Users\ellio_000\Documents\Visual Studio 2013\Projects\RType-Client-windows\RType-Client-windows\RType-Client-windows.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ellio_000\Documents\Visual Studio 2013\Projects\RType-Client-windows\x64\Debug\RType-Client-windows.exe" /NOLOGO /LIBPATH:"C:\libs\SFML-2.1\lib" "sfml-audio-d.lib" "sfml-audio-s-d.lib" "sfml-graphics-d.lib" "sfml-graphics-s-d.lib" "sfml-main-d.lib" "sfml-network-d.lib" "sfml-network-s-d.lib" "sfml-system-d.lib" "sfml-system-s-d.lib" "sfml-window-d.lib" "sfml-window-s-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:\Users\ellio_000\Documents\Visual Studio 2013\Projects\RType-Client-windows\x64\Debug\RType-Client-windows.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ellio_000\Documents\Visual Studio 2013\Projects\RType-Client-windows\x64\Debug\RType-Client-windows.lib" /MACHINE:X64 x64\Debug\main.obj
+         x64\Debug\Window.obj
+     1>sfml-window-s-d.lib(Window.cpp.obj) : error LNK2038: discordance détectée pour '_MSC_VER' : la valeur '1700' ne correspond pas à la valeur '1800' in main.obj
+     1>sfml-window-s-d.lib(Window.cpp.obj) : error LNK2038: discordance détectée pour '_ITERATOR_DEBUG_LEVEL' : la valeur '2' ne correspond pas à la valeur '0' in main.obj
+     1>sfml-window-s-d.lib(Window.cpp.obj) : error LNK2038: discordance détectée pour 'RuntimeLibrary' : la valeur 'MDd_DynamicDebug' ne correspond pas à la valeur 'MD_DynamicRelease' in main.obj
+     1>sfml-window-s-d.lib(VideoMode.cpp.obj) : error LNK2038: discordance détectée pour '_MSC_VER' : la valeur '1700' ne correspond pas à la valeur '1800' in main.obj
+     1>sfml-window-s-d.lib(VideoMode.cpp.obj) : error LNK2038: discordance détectée pour '_ITERATOR_DEBUG_LEVEL' : la valeur '2' ne correspond pas à la valeur '0' in main.obj
+     1>sfml-window-s-d.lib(VideoMode.cpp.obj) : error LNK2038: discordance détectée pour 'RuntimeLibrary' : la valeur 'MDd_DynamicDebug' ne correspond pas à la valeur 'MD_DynamicRelease' in main.obj
+     1>sfml-window-s-d.lib(GlContext.cpp.obj) : error LNK2038: discordance détectée pour '_MSC_VER' : la valeur '1700' ne correspond pas à la valeur '1800' in main.obj
+     1>sfml-window-s-d.lib(GlContext.cpp.obj) : error LNK2038: discordance détectée pour '_ITERATOR_DEBUG_LEVEL' : la valeur '2' ne correspond pas à la valeur '0' in main.obj
+     1>sfml-window-s-d.lib(GlContext.cpp.obj) : error LNK2038: discordance détectée pour 'RuntimeLibrary' : la valeur 'MDd_DynamicDebug' ne correspond pas à la valeur 'MD_DynamicRelease' in main.obj
+     1>sfml-window-s-d.lib(WindowImpl.cpp.obj) : error LNK2038: discordance détectée pour '_MSC_VER' : la valeur '1700' ne correspond pas à la valeur '1800' in main.obj
+     1>sfml-window-s-d.lib(WindowImpl.cpp.obj) : error LNK2038: discordance détectée pour '_ITERATOR_DEBUG_LEVEL' : la valeur '2' ne correspond pas à la valeur '0' in main.obj
+     1>sfml-window-s-d.lib(WindowImpl.cpp.obj) : error LNK2038: discordance détectée pour 'RuntimeLibrary' : la valeur 'MDd_DynamicDebug' ne correspond pas à la valeur 'MD_DynamicRelease' in main.obj
+     1>sfml-window-s-d.lib(VideoModeImpl.cpp.obj) : error LNK2038: discordance détectée pour '_MSC_VER' : la valeur '1700' ne correspond pas à la valeur '1800' in main.obj
+     1>sfml-window-s-d.lib(VideoModeImpl.cpp.obj) : error LNK2038: discordance détectée pour '_ITERATOR_DEBUG_LEVEL' : la valeur '2' ne correspond pas à la valeur '0' in main.obj
+     1>sfml-window-s-d.lib(VideoModeImpl.cpp.obj) : error LNK2038: discordance détectée pour 'RuntimeLibrary' : la valeur 'MDd_DynamicDebug' ne correspond pas à la valeur 'MD_DynamicRelease' in main.obj
+     1>sfml-window-s-d.lib(WglContext.cpp.obj) : error LNK2038: discordance détectée pour '_MSC_VER' : la valeur '1700' ne correspond pas à la valeur '1800' in main.obj
+     1>sfml-window-s-d.lib(WglContext.cpp.obj) : error LNK2038: discordance détectée pour '_ITERATOR_DEBUG_LEVEL' : la valeur '2' ne correspond pas à la valeur '0' in main.obj
+     1>sfml-window-s-d.lib(WglContext.cpp.obj) : error LNK2038: discordance détectée pour 'RuntimeLibrary' : la valeur 'MDd_DynamicDebug' ne correspond pas à la valeur 'MD_DynamicRelease' in main.obj
+     1>sfml-window-s-d.lib(JoystickManager.cpp.obj) : error LNK2038: discordance détectée pour '_MSC_VER' : la valeur '1700' ne correspond pas à la valeur '1800' in main.obj
+     1>sfml-window-s-d.lib(JoystickManager.cpp.obj) : error LNK2038: discordance détectée pour '_ITERATOR_DEBUG_LEVEL' : la valeur '2' ne correspond pas à la valeur '0' in main.obj
+     1>sfml-window-s-d.lib(JoystickManager.cpp.obj) : error LNK2038: discordance détectée pour 'RuntimeLibrary' : la valeur 'MDd_DynamicDebug' ne correspond pas à la valeur 'MD_DynamicRelease' in main.obj
+     1>sfml-window-s-d.lib(WindowImplWin32.cpp.obj) : error LNK2038: discordance détectée pour '_MSC_VER' : la valeur '1700' ne correspond pas à la valeur '1800' in main.obj
+     1>sfml-window-s-d.lib(WindowImplWin32.cpp.obj) : error LNK2038: discordance détectée pour '_ITERATOR_DEBUG_LEVEL' : la valeur '2' ne correspond pas à la valeur '0' in main.obj
+     1>sfml-window-s-d.lib(WindowImplWin32.cpp.obj) : error LNK2038: discordance détectée pour 'RuntimeLibrary' : la valeur 'MDd_DynamicDebug' ne correspond pas à la valeur 'MD_DynamicRelease' in main.obj
+     1>sfml-window-s-d.lib(JoystickImpl.cpp.obj) : error LNK2038: discordance détectée pour '_MSC_VER' : la valeur '1700' ne correspond pas à la valeur '1800' in main.obj
+     1>sfml-window-s-d.lib(JoystickImpl.cpp.obj) : error LNK2038: discordance détectée pour '_ITERATOR_DEBUG_LEVEL' : la valeur '2' ne correspond pas à la valeur '0' in main.obj
+     1>sfml-window-s-d.lib(JoystickImpl.cpp.obj) : error LNK2038: discordance détectée pour 'RuntimeLibrary' : la valeur 'MDd_DynamicDebug' ne correspond pas à la valeur 'MD_DynamicRelease' in main.obj
+     1>sfml-system-d.lib(sfml-system-d-2.dll) : fatal error LNK1112: type d'ordinateur module 'X86' en conflit avec le type d'ordinateur cible 'x64'
+     1>Génération du projet "C:\Users\ellio_000\Documents\Visual Studio 2013\Projects\RType-Client-windows\RType-Client-windows\RType-Client-windows.vcxproj" terminée (Build cible(s)) -- ÉCHEC.
+
+ÉCHEC de la build.
+
+Temps écoulé 00:00:00.09

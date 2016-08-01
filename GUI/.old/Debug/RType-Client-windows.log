@@ -1,0 +1,91 @@
+<<<<<<< HEAD
+﻿La génération a démarré 11/01/2015 02:05:33.
+     1>Projet "C:\Users\ellio_000\Documents\tmp-git\rtype\GUI\.old\RType-Client-windows.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"..\SFML-2.1 -wind\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ClientInfo.cpp CondVar.cpp CoreAction.cpp CoreGame.cpp main.cpp MControls.cpp Menu.cpp MGame.cpp MOptions.cpp MTime.cpp Mutex.cpp Network.cpp SafeQueue.cpp ScopedLock.cpp Shared.cpp Sound.cpp HandlePool.cpp Thread.cpp ThreadAudio.cpp ThreadPool.cpp WClientInfo.cpp Window.cpp WNetwork.cpp
+         WNetwork.cpp
+     1>c1xx : fatal error C1083: Impossible d'ouvrir le fichier source : 'WNetwork.cpp' : No such file or directory
+         Window.cpp
+     1>c1xx : fatal error C1083: Impossible d'ouvrir le fichier source : 'Window.cpp' : No such file or directory
+         WClientInfo.cpp
+     1>c1xx : fatal error C1083: Impossible d'ouvrir le fichier source : 'WClientInfo.cpp' : No such file or directory
+         ThreadPool.cpp
+     1>c1xx : fatal error C1083: Impossible d'ouvrir le fichier source : 'ThreadPool.cpp' : No such file or directory
+         ThreadAudio.cpp
+     1>c1xx : fatal error C1083: Impossible d'ouvrir le fichier source : 'ThreadAudio.cpp' : No such file or directory
+         Thread.cpp
+     1>c1xx : fatal error C1083: Impossible d'ouvrir le fichier source : 'Thread.cpp' : No such file or directory
+         HandlePool.cpp
+     1>c1xx : fatal error C1083: Impossible d'ouvrir le fichier source : 'HandlePool.cpp' : No such file or directory
+         Sound.cpp
+     1>c1xx : fatal error C1083: Impossible d'ouvrir le fichier source : 'Sound.cpp' : No such file or directory
+         Shared.cpp
+     1>c1xx : fatal error C1083: Impossible d'ouvrir le fichier source : 'Shared.cpp' : No such file or directory
+         ScopedLock.cpp
+     1>c1xx : fatal error C1083: Impossible d'ouvrir le fichier source : 'ScopedLock.cpp' : No such file or directory
+         SafeQueue.cpp
+     1>c1xx : fatal error C1083: Impossible d'ouvrir le fichier source : 'SafeQueue.cpp' : No such file or directory
+         Network.cpp
+     1>c1xx : fatal error C1083: Impossible d'ouvrir le fichier source : 'Network.cpp' : No such file or directory
+         Mutex.cpp
+     1>c1xx : fatal error C1083: Impossible d'ouvrir le fichier source : 'Mutex.cpp' : No such file or directory
+         MTime.cpp
+     1>c1xx : fatal error C1083: Impossible d'ouvrir le fichier source : 'MTime.cpp' : No such file or directory
+         MOptions.cpp
+     1>c1xx : fatal error C1083: Impossible d'ouvrir le fichier source : 'MOptions.cpp' : No such file or directory
+         MGame.cpp
+     1>c1xx : fatal error C1083: Impossible d'ouvrir le fichier source : 'MGame.cpp' : No such file or directory
+         Menu.cpp
+     1>c1xx : fatal error C1083: Impossible d'ouvrir le fichier source : 'Menu.cpp' : No such file or directory
+         MControls.cpp
+     1>c1xx : fatal error C1083: Impossible d'ouvrir le fichier source : 'MControls.cpp' : No such file or directory
+         main.cpp
+     1>c1xx : fatal error C1083: Impossible d'ouvrir le fichier source : 'main.cpp' : No such file or directory
+         CoreGame.cpp
+     1>c1xx : fatal error C1083: Impossible d'ouvrir le fichier source : 'CoreGame.cpp' : No such file or directory
+         Génération de code en cours...
+         Compilation en cours...
+         CoreAction.cpp
+     1>c1xx : fatal error C1083: Impossible d'ouvrir le fichier source : 'CoreAction.cpp' : No such file or directory
+         CondVar.cpp
+     1>c1xx : fatal error C1083: Impossible d'ouvrir le fichier source : 'CondVar.cpp' : No such file or directory
+         ClientInfo.cpp
+     1>c1xx : fatal error C1083: Impossible d'ouvrir le fichier source : 'ClientInfo.cpp' : No such file or directory
+         Génération de code en cours...
+     1>Génération du projet "C:\Users\ellio_000\Documents\tmp-git\rtype\GUI\.old\RType-Client-windows.vcxproj" terminée (Build cible(s)) -- ÉCHEC.
+=======
+﻿La génération a démarré 11/01/2015 01:24:16.
+     1>Projet "C:\Users\Napsters\Desktop\Bitbucket\rtype\GUI\.old\RType-Client-windows.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Napsters\Desktop\Bitbucket\rtype\GUI\.old\Debug\RType-Client-windows.exe" /INCREMENTAL /NOLOGO /LIBPATH:"..\libs\SFML-2.1 -wind\lib\debug\\" "sfml-audio-d.lib" "sfml-graphics-d.lib" "sfml-main-d.lib" "sfml-network-d.lib" "sfml-system-d.lib" "sfml-window-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Napsters\Desktop\Bitbucket\rtype\GUI\.old\Debug\RType-Client-windows.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Napsters\Desktop\Bitbucket\rtype\GUI\.old\Debug\RType-Client-windows.lib" /MACHINE:X86 Debug\WClientInfo.obj
+         Debug\WNetwork.obj
+         Debug\SafeQueue.obj
+         Debug\ThreadPool.obj
+         Debug\CondVar.obj
+         Debug\Mutex.obj
+         Debug\ScopedLock.obj
+         Debug\Thread.obj
+         Debug\CoreAction.obj
+         Debug\CoreGame.obj
+         Debug\HandlePool.obj
+         Debug\main.obj
+         Debug\MControls.obj
+         Debug\Menu.obj
+         Debug\MGame.obj
+         Debug\MOptions.obj
+         Debug\MTime.obj
+         Debug\Shared.obj
+         Debug\Sound.obj
+         Debug\ThreadAudio.obj
+         Debug\Window.obj
+         RType-Client-windows.vcxproj -> C:\Users\Napsters\Desktop\Bitbucket\rtype\GUI\.old\Debug\RType-Client-windows.exe
+     1>Génération du projet "C:\Users\Napsters\Desktop\Bitbucket\rtype\GUI\.old\RType-Client-windows.vcxproj" terminée (Build cible(s)).
+>>>>>>> e99f0c89730be6828a110a507f8477b72e3fdad0
+
+ÉCHEC de la build.
+
+<<<<<<< HEAD
+Temps écoulé 00:00:00.75
+=======
+Temps écoulé 00:00:00.54
+>>>>>>> e99f0c89730be6828a110a507f8477b72e3fdad0

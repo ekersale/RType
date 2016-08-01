@@ -1,0 +1,6 @@
+#TargetFrameworkVersion=v4.0:PlatformToolSet=v120:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit
+<<<<<<< HEAD
+Debug|Win32|C:\Users\ellio_000\Documents\tmp-git\rtype\Server\Core\Debug\DLSources\AMMO\|
+=======
+Debug|Win32|C:\Users\HAL\Documents\rtype\caca\rtype\Server\Core\Debug\DLSources\AMMO\|
+>>>>>>> b8846131a8028feeb4d1ccee3bb64ee4587582e1

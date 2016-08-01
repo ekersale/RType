@@ -1,0 +1,42 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# Explicit paths specified without -i or -o; assuming --only paths...
+# On branch Server
+# Your branch is up-to-date with 'origin/Server'.
+#
+# Changes to be committed:
+#	modified:   LibThreads/sources/Windows/Thread.cpp
+#	modified:   Server-Windows/Debug/Server.exe
+#	modified:   Server-Windows/Debug/Server.ilk
+#	modified:   Server-Windows/Debug/Server.pdb
+#	modified:   Server-Windows/Server.sdf
+#	modified:   Server-Windows/Server.v12.suo
+#	modified:   Server-Windows/Server/Debug/Client.obj
+#	modified:   Server-Windows/Server/Debug/Core.obj
+#	modified:   Server-Windows/Server/Debug/LaunchRoom.obj
+#	modified:   Server-Windows/Server/Debug/MTime.obj
+#	modified:   Server-Windows/Server/Debug/Object.obj
+#	modified:   Server-Windows/Server/Debug/ObjectPull.obj
+#	modified:   Server-Windows/Server/Debug/Random.obj
+#	modified:   Server-Windows/Server/Debug/RcvBuff.obj
+#	modified:   Server-Windows/Server/Debug/Room.obj
+#	modified:   Server-Windows/Server/Debug/Server.log
+#	modified:   Server-Windows/Server/Debug/Server.obj
+#	modified:   Server-Windows/Server/Debug/Server.tlog/CL.read.1.tlog
+#	modified:   Server-Windows/Server/Debug/Server.tlog/CL.write.1.tlog
+#	modified:   Server-Windows/Server/Debug/Server.tlog/cl.command.1.tlog
+#	modified:   Server-Windows/Server/Debug/Stage.obj
+#	modified:   Server-Windows/Server/Debug/Thread.obj
+#	modified:   Server-Windows/Server/Debug/UDLLoader.obj
+#	modified:   Server-Windows/Server/Debug/WDLLoader.obj
+#	modified:   Server-Windows/Server/Debug/main.obj
+#	modified:   Server-Windows/Server/Debug/vc120.idb
+#	modified:   Server-Windows/Server/Debug/vc120.pdb
+#	modified:   Server/sources/Core.cpp
+#
+# Untracked files:
+#	Server-Windows/Debug/Dll/
+#	Server-Windows/Server.opensdf
+#
+

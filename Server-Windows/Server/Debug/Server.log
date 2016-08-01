@@ -1,0 +1,34 @@
+﻿La génération a démarré 11/01/2015 23:38:30.
+     1>Projet "C:\Users\ellio_000\Documents\tmp-git\rtype\Server-Windows\Server\Server.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\Server\includes /I"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include" /I"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include" /I"C:\Program Files (x86)\Windows Kits\8.1\Include\um" /I"C:\Program Files (x86)\Windows Kits\8.1\Include\shared" /I"C:\Program Files (x86)\Windows Kits\8.1\Include\winrt" /I..\..\LibThreads\includes\Windows /I..\..\LibThreads\includes\Common /I..\..\LibNetwork\includes\Windows /I..\..\LibNetwork\includes\Common /I..\..\Server\Core /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\Server\sources\RcvBuff.cpp
+         RcvBuff.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ellio_000\Documents\tmp-git\rtype\Server-Windows\Debug\Server.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\ellio_000\Documents\tmp-git\rtype\Server-Windows\Debug\Server.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ellio_000\Documents\tmp-git\rtype\Server-Windows\Debug\Server.lib" /MACHINE:X86 Debug\WClientInfo.obj
+         Debug\WNetwork.obj
+         Debug\SafeQueue.obj
+         Debug\ThreadPool.obj
+         Debug\CondVar.obj
+         Debug\Mutex.obj
+         Debug\ScopedLock.obj
+         Debug\Thread.obj
+         Debug\Core.obj
+         Debug\MTime.obj
+         Debug\Object.obj
+         Debug\ObjectPull.obj
+         Debug\Random.obj
+         Debug\Stage.obj
+         Debug\UDLLoader.obj
+         Debug\WDLLoader.obj
+         Debug\Client.obj
+         Debug\LaunchRoom.obj
+         Debug\main.obj
+         Debug\RcvBuff.obj
+         Debug\Room.obj
+         Debug\Server.obj
+         Server.vcxproj -> C:\Users\ellio_000\Documents\tmp-git\rtype\Server-Windows\Debug\Server.exe
+     1>Génération du projet "C:\Users\ellio_000\Documents\tmp-git\rtype\Server-Windows\Server\Server.vcxproj" terminée (Build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:01.85

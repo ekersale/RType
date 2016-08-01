@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DDA5BA07-6FB1-4B7F-9B4B-FDBB2D19D367}</ProjectGuid>
+    <RootNamespace>RTypeClientwindows</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)\Binary\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\libs\SFML-2.1 -wind\lib\debug\;..\libs\SFML-2.1 -wind\include;..\..\LibThreads\includes\Windows;..\..\LibNetwork\includes\Windows;..\includes;..\..\LibThreads\includes\Common;..\..\LibNetwork\includes\Common;..\..\SFML-2.1 -wind\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\libs\SFML-2.1 -wind\lib\debug\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-audio-d.lib;sfml-graphics-d.lib;sfml-main-d.lib;sfml-network-d.lib;sfml-system-d.lib;sfml-window-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\libs\SFML-2.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>C:\libs\SFML-2.1\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-audio-d.lib;sfml-audio-s-d.lib;sfml-graphics-d.lib;sfml-graphics-s-d.lib;sfml-main-d.lib;sfml-network-d.lib;sfml-network-s-d.lib;sfml-system-d.lib;sfml-system-s-d.lib;sfml-window-d.lib;sfml-window-s-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\LibNetwork\sources\Windows\WClientInfo.cpp" />
+    <ClCompile Include="..\..\LibNetwork\sources\Windows\WNetwork.cpp" />
+    <ClCompile Include="..\..\LibThreads\sources\Common\SafeQueue.cpp" />
+    <ClCompile Include="..\..\LibThreads\sources\Common\ThreadPool.cpp" />
+    <ClCompile Include="..\..\LibThreads\sources\Windows\CondVar.cpp" />
+    <ClCompile Include="..\..\LibThreads\sources\Windows\Mutex.cpp" />
+    <ClCompile Include="..\..\LibThreads\sources\Windows\ScopedLock.cpp" />
+    <ClCompile Include="..\..\LibThreads\sources\Windows\Thread.cpp" />
+    <ClCompile Include="..\sources\CoreAction.cpp" />
+    <ClCompile Include="..\sources\CoreGame.cpp" />
+    <ClCompile Include="..\sources\DrawObject.cpp" />
+    <ClCompile Include="..\sources\HandlePool.cpp" />
+    <ClCompile Include="..\sources\LoadTexture.cpp" />
+    <ClCompile Include="..\sources\main.cpp" />
+    <ClCompile Include="..\sources\MControls.cpp" />
+    <ClCompile Include="..\sources\Menu.cpp" />
+    <ClCompile Include="..\sources\MGame.cpp" />
+    <ClCompile Include="..\sources\MOptions.cpp" />
+    <ClCompile Include="..\sources\Mouvement.cpp" />
+    <ClCompile Include="..\sources\MTime.cpp" />
+    <ClCompile Include="..\sources\Shared.cpp" />
+    <ClCompile Include="..\sources\Sound.cpp" />
+    <ClCompile Include="..\sources\ThreadAudio.cpp" />
+    <ClCompile Include="..\sources\Window.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\LibNetwork\includes\Windows\WClientInfo.hh" />
+    <ClInclude Include="..\..\LibThreads\includes\Windows\CondVar.hh" />
+    <ClInclude Include="..\..\LibThreads\includes\Windows\Mutex.hh" />
+    <ClInclude Include="..\..\LibThreads\includes\Windows\ScopedLock.hh" />
+    <ClInclude Include="..\..\LibThreads\includes\Windows\Thread.hh" />
+    <ClInclude Include="..\includes\CoreAction.hh" />
+    <ClInclude Include="..\includes\CoreGame.hh" />
+    <ClInclude Include="..\includes\HandlePool.hh" />
+    <ClInclude Include="..\includes\IMenu.hh" />
+    <ClInclude Include="..\includes\MControls.hh" />
+    <ClInclude Include="..\includes\Menu.hh" />
+    <ClInclude Include="..\includes\MGame.hh" />
+    <ClInclude Include="..\includes\MOptions.hh" />
+    <ClInclude Include="..\includes\MTime.hh" />
+    <ClInclude Include="..\includes\Shared.hh" />
+    <ClInclude Include="..\includes\Sound.hh" />
+    <ClInclude Include="..\includes\Thread.hh" />
+    <ClInclude Include="..\includes\ThreadAudio.hh" />
+    <ClInclude Include="..\includes\Windows.hh" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
